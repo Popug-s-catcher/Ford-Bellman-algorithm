@@ -1,5 +1,4 @@
-from PyQt5 import QtCore, QtGui, QtWidgets
-from Graph import Graph
+from PyQt5 import QtCore, QtWidgets
 
 
 class InputDialog(QtWidgets.QDialog):               # class of the input window

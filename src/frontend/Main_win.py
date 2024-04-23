@@ -1,11 +1,11 @@
 from PyQt5 import QtCore, QtWidgets
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
 import matplotlib.pyplot as plt
-from Input_Dialog_win import InputDialog
-from Log_win import LogDialog
-from Help_win import HelpDialog
-from Graph import Graph
-from FB import FB_alg
+from src.frontend.Input_Dialog_win import InputDialog
+from src.frontend.Log_win import LogDialog
+from src.frontend.Help_win import HelpDialog
+from src.backend.Graph import Graph
+from src.backend.FB import FB_alg
 import networkx as nx
 
 
