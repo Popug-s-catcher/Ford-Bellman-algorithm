@@ -1,5 +1,5 @@
 from PyQt5 import QtWidgets
-from src.frontend.Main_win import MainWin
+from frontend.Main_win import MainWin
 
 
 if __name__ == "__main__":                  # main function that runs the main window
